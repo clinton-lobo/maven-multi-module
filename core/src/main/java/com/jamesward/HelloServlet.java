@@ -16,8 +16,7 @@ public class HelloServlet extends HttpServlet {
         ServletOutputStream out = resp.getOutputStream();
         out.write("hello, world".getBytes());
         
-        out.flush();
-        
+        out.flush();        
         out.close();
     }
 
