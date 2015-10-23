@@ -17,6 +17,7 @@ public class HelloServlet extends HttpServlet {
         out.write("hello, world".getBytes());
         
         out.flush();
+        
         out.close();
     }
 
